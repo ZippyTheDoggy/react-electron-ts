@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=require("electron");e.app.whenReady().then((function(){new e.BrowserWindow({width:800,height:600,webPreferences:{nodeIntegration:!0}}).loadFile("index.html")}))})();
